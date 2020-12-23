@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, DB, ADODB;
+  Dialogs, DB, ADODB, Menus;
 
 type
   TForm1 = class(TForm)
@@ -33,6 +33,8 @@ type
     TovarSource: TDataSource;
     Vidi_oplatSource: TDataSource;
     Tip_raspDvigSource: TDataSource;
+    MainMenu1: TMainMenu;
+    N1: TMenuItem;
   private
     { Private declarations }
   public

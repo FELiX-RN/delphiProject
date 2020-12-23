@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 268
-  Top = 147
+  Left = 444
+  Top = 91
   Width = 793
   Height = 470
   Caption = #1040#1074#1090#1086#1089#1072#1083#1086#1085
@@ -10,6 +10,7 @@ object Form1: TForm1
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  Menu = MainMenu1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
@@ -154,5 +155,12 @@ object Form1: TForm1
     DataSet = tblTip_raspDvig
     Left = 112
     Top = 192
+  end
+  object MainMenu1: TMainMenu
+    Left = 152
+    Top = 64
+    object N1: TMenuItem
+      Caption = #1050#1083#1080#1077#1085#1090#1099
+    end
   end
 end

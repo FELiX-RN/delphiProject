@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 253
-  Top = 195
+  Left = 268
+  Top = 147
   Width = 793
   Height = 470
   Caption = #1040#1074#1090#1086#1089#1072#1083#1086#1085
@@ -20,8 +20,8 @@ object Form1: TForm1
     LoginPrompt = False
     Mode = cmShareDenyNone
     Provider = 'Microsoft.Jet.OLEDB.4.0'
-    Left = 32
-    Top = 24
+    Left = 64
+    Top = 32
   end
   object tblClients: TADOTable
     Connection = con1
@@ -94,5 +94,65 @@ object Form1: TForm1
     TableName = 'Vidi_oplat'
     Left = 48
     Top = 224
+  end
+  object ClientSource: TDataSource
+    DataSet = tblClients
+    Left = 80
+    Top = 64
+  end
+  object Marka_avtoSource: TDataSource
+    DataSet = tblMarka_avto
+    Left = 80
+    Top = 96
+  end
+  object Strana_ProizSource: TDataSource
+    DataSet = tblStrana_Proizvoditel
+    Left = 80
+    Top = 128
+  end
+  object Tip_dvigatelaSource: TDataSource
+    DataSet = tblTip_dvigatela
+    Left = 112
+    Top = 128
+  end
+  object Modeli_avtoSource: TDataSource
+    DataSet = tblModeli_avto
+    Left = 112
+    Top = 64
+  end
+  object Prodanie_tovariSource: TDataSource
+    DataSet = tblProdanie_tovari
+    Left = 112
+    Top = 96
+  end
+  object Tip_korobkiSource: TDataSource
+    DataSet = tblTip_korobki_peredach
+    Left = 80
+    Top = 160
+  end
+  object Tip_kuzovaSource: TDataSource
+    DataSet = tblTip_kuzova
+    Left = 112
+    Top = 160
+  end
+  object Tip_privodaSource: TDataSource
+    DataSet = tblTip_privoda
+    Left = 80
+    Top = 192
+  end
+  object TovarSource: TDataSource
+    DataSet = tblTovar
+    Left = 80
+    Top = 224
+  end
+  object Vidi_oplatSource: TDataSource
+    DataSet = tblVidi_oplat
+    Left = 112
+    Top = 224
+  end
+  object Tip_raspDvigSource: TDataSource
+    DataSet = tblTip_raspDvig
+    Left = 112
+    Top = 192
   end
 end

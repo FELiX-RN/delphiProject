@@ -21,6 +21,18 @@ type
     tblTip_raspDvig: TADOTable;
     tblTovar: TADOTable;
     tblVidi_oplat: TADOTable;
+    ClientSource: TDataSource;
+    Marka_avtoSource: TDataSource;
+    Strana_ProizSource: TDataSource;
+    Tip_dvigatelaSource: TDataSource;
+    Modeli_avtoSource: TDataSource;
+    Prodanie_tovariSource: TDataSource;
+    Tip_korobkiSource: TDataSource;
+    Tip_kuzovaSource: TDataSource;
+    Tip_privodaSource: TDataSource;
+    TovarSource: TDataSource;
+    Vidi_oplatSource: TDataSource;
+    Tip_raspDvigSource: TDataSource;
   private
     { Private declarations }
   public
